@@ -45,3 +45,7 @@ with open("catalog.csv", "w", newline="", encoding="utf-8") as f:
         time.sleep(1)
 
 print("Done! File saved as catalog.csv")
+
+pip install requests beautifulsoup4
+
+python scraper.py
